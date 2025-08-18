@@ -23,17 +23,14 @@ async function setLanguage(lang) {
     }
   }
 
-  // Cargar idioma guardado al entrar
   window.addEventListener('DOMContentLoaded', () => {
     const savedLang = localStorage.getItem('lang') || 'es';
     setLanguage(savedLang);
   });
 
   function copiarWhatsapp() {
-    // Tomamos el valor del input
     let texto = "1234567890"
 
-    // Lo copiamos al portapapeles
     navigator.clipboard.writeText(texto).then(() => {
       alert("¡Texto copiado al portapapeles! " + texto);
     }).catch(err => {
@@ -43,10 +40,8 @@ async function setLanguage(lang) {
 
   
   function copiarCorreo() {
-    // Tomamos el valor del input
     let texto = "info@transporteseguro.com"
 
-    // Lo copiamos al portapapeles
     navigator.clipboard.writeText(texto).then(() => {
       alert("¡Texto copiado al portapapeles! " + texto);
     }).catch(err => {
@@ -55,10 +50,8 @@ async function setLanguage(lang) {
   }
 
   function copiarTelefono() {
-    // Tomamos el valor del input
     let texto = "1234567890"
 
-    // Lo copiamos al portapapeles
     navigator.clipboard.writeText(texto).then(() => {
       alert("¡Texto copiado al portapapeles! " + texto);
     }).catch(err => {
