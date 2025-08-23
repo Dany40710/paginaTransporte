@@ -78,13 +78,3 @@ body {
   .copiar {
     cursor: pointer;
   }
-
-        #contenidoPagosDos::before,
-        #contenidoPagosTres::before,
-        #contenidoPagosCuatro::before {
-          content: "\2022 "; /* Punto negro como viñeta */
-          color: #fff; /* Cambia el color si lo necesitas */
-          font-size: 1.2em;
-          margin-right: 8px;
-        }
-    
