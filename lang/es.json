@@ -18,8 +18,17 @@
     
     "tituloDescipcion": "Los mejores taxis de la ciudad",
     "Descripcion": "Somos un servicio de transportes confiables y seguros, listos para llevarlo al lugar que nos pida con la mejor atención y servicio.",
-    
-    
+
+    "tituloPagos": "Metodos de pago",
+    "contenidoPagos": "Aceptamos todas las tarjetas",
+    "contenidoPagosDos": "Visa",
+    "contenidoPagosTres": "MasterCard",
+    "contenidoPagosCuatro": "American Express",
+    "contenidoPagosCinco": " Efectivo",
+    "contenidoPagosSeis": " Transferencia",
+    "contenidoPagosSiete": " Pago con QR",
+    "contenidoPagosOcho": "No te preocupes, Contamos con facturación.",
+
     "tituloServicios": "Servicios",
 
     "tituloCard1": "Transporte seguro",
@@ -39,6 +48,9 @@
 
     "tituloCard6": "Eventos musicales y deportivos",
     "contenidoCard6": "Se ofrecen servicios de transporte para conciertos y eventos deportivos, garantizando la comodidad y seguridad de nuestros pasajeros.",
+
+    "tituloCard7": "Paquetería y mensajería",
+    "contenidoCard7": "Se ofrecen servicios de transporte para paquetería y mensajería, garantizando la entrega segura y a tiempo de sus envíos.",
 
     "tituloContacto": "Contáctanos",
     "whatsapp": "1234567890"
