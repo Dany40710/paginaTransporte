@@ -5,6 +5,7 @@
     "Inicio": "Inicio",
     "Servicios": "Servicios",
     "Contacto": "Contacto",
+    "Recorridos": "Recorridos",
     "Idioma": "🇺🇸 English",
 
 
@@ -51,6 +52,8 @@
 
     "tituloCard7": "Paquetería y mensajería",
     "contenidoCard7": "Se ofrecen servicios de transporte para paquetería y mensajería, garantizando la entrega segura y a tiempo de sus envíos.",
+
+    "tituloRecorridos": "Recorridos disponibles",
 
     "tituloContacto": "Contáctanos",
     "whatsapp": "1234567890"
