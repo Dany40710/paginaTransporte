@@ -78,3 +78,9 @@ body {
   .copiar {
     cursor: pointer;
   }
+
+  .Initialphoto{
+    width: 100%;
+    max-height: 65vh;
+    object-fit: cover;
+  }
