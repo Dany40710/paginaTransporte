@@ -47,7 +47,9 @@
 html,
 body {
   overflow-x: hidden;
+  overscroll-behavior-x: none;
   width: 100%;
+  max-width: 100%;
 }
 
 body {
@@ -80,6 +82,13 @@ body {
 }
 
 @media (max-width: 575.98px) {
+  html,
+  body {
+    overflow-x: hidden !important;
+    overscroll-behavior-x: none;
+    max-width: 100%;
+  }
+
   main.container-fluid {
     padding-left: 0.5rem !important;
     padding-right: 0.5rem !important;
