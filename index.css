@@ -1,5 +1,7 @@
 .cards-container {
   min-height: 400px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .card-fixed {
@@ -73,6 +75,24 @@ body {
 
 .marcoDescripcion {
     border-radius: 10px;
+}
+
+@media (max-width: 575.98px) {
+  #tituloPagos,
+  #tituloServicios,
+  #tituloContacto,
+  #tituloRecorridos,
+  #contenidoPagos,
+  #Descripcion {
+    margin-left: 0 !important;
+    padding-left: 0.75rem !important;
+    padding-right: 0.75rem !important;
+  }
+
+  .cards-container {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 
