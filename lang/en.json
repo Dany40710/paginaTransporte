@@ -1,10 +1,53 @@
 {
+    "page-title": "Transporte seguro",
+
+
     "Inicio": "Main",
     "Servicios": "Services",
     "Contacto": "Contact",
+    "Recorridos": "Tours",
     "Idioma": "🇲🇽 Español",
 
- "tituloDescipcion": "The best taxis of the city",
-    "Descripcion": "We are a reliable and safe transportation service, ready to take you to your desired location with the best attention and service."
+    "tituloDescipcion": "The best taxis of the city",
+    "Descripcion": "We are a reliable and safe transportation service, ready to take you to your desired location with the best attention and service.",
 
+    "tituloPagos": "Payment methods",
+    "contenidoPagos": "We accept all cards",
+    "contenidoPagosDos": "Visa",
+    "contenidoPagosTres": "MasterCard",
+    "contenidoPagosCuatro": "American Express",
+    "contenidoPagosCinco": " Cash",
+    "contenidoPagosSeis": " Transfer",
+    "contenidoPagosSiete": " QR Payment",
+    "contenidoPagosOcho": "Don't worry, We have invoicing.",
+
+    "tituloServicios": "Services",
+
+    "tituloCard1": "Safe transportation",
+    "contenidoCard1": "We offer safe services either to a single point in the city or to several.",
+
+    "tituloCard2": "Transfers to other states",
+    "contenidoCard2": "We offer safe services for transfers to other states, guaranteeing the comfort and safety of our passengers.",   
+
+    "tituloCard3": "Scheduled trips",
+    "contenidoCard3": "We offer scheduled transportation services, guaranteeing the punctuality and comfort of our passengers.",
+
+    "tituloCard4": "Transfers to airport / terminals",
+    "contenidoCard4": "We offer safe services for transfers to Mexico City Airport, Toluca International Airport or AIFA as well as to the various bus terminals, guaranteeing the comfort and safety of our passengers.",
+
+    "tituloCard5": "Hourly service",
+    "contenidoCard5": "Service rental, excellent for events, meetings or tourist tours.",   
+
+    "tituloCard6": "Musical and sporting events",
+    "contenidoCard6": "We offer transportation services for concerts and sporting events, guaranteeing the comfort and safety of our passengers.",  
+
+    "tituloCard7": "Parcel and messaging",
+    "contenidoCard7": "We offer transportation services for parcels and messaging, guaranteeing the safe and timely delivery of your shipments.",
+
+    "tituloRecorridos": "Available tours",
+
+    "tituloContacto": "Contact us",
+
+    "Telefono": " Phone Number: ",
+    "numTelefono": "+52 55 5187 6629"
 }

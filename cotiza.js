@@ -1,4 +1,5 @@
 const btnCalcular = document.getElementById("btnCalcular");
+const resultadoTexto = document.getElementById("resultadoTexto");
 
 if (btnCalcular) {
 btnCalcular.addEventListener("click", function () {
@@ -53,6 +54,10 @@ if (aplicarZona) {
 // 🔹 Mostrar resultado
 document.getElementById("costoTotal").textContent =
     "$ " + totalFinal.toFixed(2);
+
+if (resultadoTexto) {
+    resultadoTexto.classList.remove("d-none");
+}
 });
 }
 

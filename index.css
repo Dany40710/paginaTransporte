@@ -41,6 +41,13 @@
 
 body {
   overflow-x: hidden;
+  padding-top: 72px;
+}
+
+@media (max-width: 991.98px) {
+  body {
+    padding-top: 64px;
+  }
 }
 
 

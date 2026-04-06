@@ -14,7 +14,7 @@
 
     <!-- navbar -->
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top shadow-sm">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#" id="Inicio"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,7 +48,7 @@
     </header>
     
     <!-- carrusel -->
-    <main class="container-fluid p-2 my-3">
+    <main class="container-fluid p-2">
 
       <div class="ratio ratio-21x9">
   <img src="assets/Initialphoto.jpg" alt="imagen inicial" class="w-100 h-100 object-fit-cover">
@@ -106,7 +106,6 @@
         <div class="container my-5 border border-light border-2 py-4 marcoDescripcion">
           <div class="row align-items-center">
             <div class="col-12 col-md-4 text-center mb-3 mb-md-0">
-              <a href="cotiza.html">
                 <img src="assets/logo2.jpg" alt="Logo" class="img-fluid">
               </a>
             </div>
@@ -293,7 +292,9 @@
 
               <div class="col h-100">
                 <div class="card h-100 card-fixed">
-                  <img src="assets/ServicioHoras.png" class="card-img-top card-img-fixed" alt="...">
+                  <a href="cotiza.html">
+                    <img src="assets/ServicioHoras.png" class="card-img-top card-img-fixed" alt="...">
+                  </a>
                   <div class="card-body">
                     <h5 class="card-title" id="tituloCard5"></h5>
                     <p class="card-text" id="contenidoCard5"></p>
@@ -334,9 +335,9 @@
             <div>
               <h2 class="p-3 mt-5" id="tituloContacto"></h2>
               <div class="d-flex flex-column align-items-initial">
-                <p class="bi bi-telephone copiar"> Teléfono: <span onclick="copiarTelefono()" id="telefono">+52 55 5187 6629</span></p>
-                <p class="bi bi-whatsapp copiar"> Whatsapp: <a onclick="copiarWhatsapp()" id="whatsapp">+52 55 5187 6629</a><br></p>
-                <p class="bi bi-envelope copiar"> Email: <a onclick="copiarCorreo()" id="email">transporteseguro69@outlook.com</a></p>
+                <p class="bi bi-telephone copiar" id="Telefono"> <span onclick="copiarTelefono()" id="numTelefono"> afdfe</span></p>
+                <p class="bi bi-whatsapp copiar"> Whatsapp: <a onclick="copiarWhatsapp()">+52 55 5187 6629</a><br></p>
+                <p class="bi bi-envelope copiar"> Email: <a onclick="copiarCorreo()">transporteseguro69@outlook.com</a></p>
             </div>
     
     </main>
