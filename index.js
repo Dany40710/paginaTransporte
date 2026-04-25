@@ -29,7 +29,7 @@ async function setLanguage(lang) {
   });
 
   function copiarWhatsapp() {
-    let texto = "1234567890"
+    let texto = "+52 55 5187 6629"
 
     navigator.clipboard.writeText(texto).then(() => {
       alert("¡Texto copiado al portapapeles! " + texto);
@@ -40,7 +40,7 @@ async function setLanguage(lang) {
 
   
   function copiarCorreo() {
-    let texto = "info@transporteseguro.com"
+    let texto = "transporteseguro69@outlook.com"
 
     navigator.clipboard.writeText(texto).then(() => {
       alert("¡Texto copiado al portapapeles! " + texto);
@@ -50,7 +50,7 @@ async function setLanguage(lang) {
   }
 
   function copiarTelefono() {
-    let texto = "1234567890"
+    let texto = "+52 55 5187 6629"
 
     navigator.clipboard.writeText(texto).then(() => {
       alert("¡Texto copiado al portapapeles! " + texto);
